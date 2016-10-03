@@ -13,5 +13,5 @@ namespace lab02
         double GetSpeed();
     }
     public enum VehicleType { unidentified, car, boat, motorcycle, all }
-    public enum VehicleName { Namn, namn2, name3 }
+    public enum VehicleName { Namn, namn2, name3, name4 }
 }
