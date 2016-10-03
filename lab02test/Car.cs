@@ -17,6 +17,7 @@ namespace lab02
             //Randomly generates a speed between 10 - 101 to car added by user
             Random randSpeed = new Random();
             _speed = (double)randSpeed.Next(10, 101);
+            //_name = randomName();
         }
 
         public string Name
