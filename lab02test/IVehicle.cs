@@ -8,6 +8,7 @@ namespace lab02
 {
     interface IVehicle
     {
+        string Name { get; }
         double GetMetersPerSecond { get; } //Force classes to have a getter for speed in m/s
         void SetSpeed(double input);
         double GetSpeed();
