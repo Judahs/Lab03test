@@ -9,6 +9,7 @@ namespace lab02
     class Motorcycle : IVehicle
     {
         private double _speed;
+        private string _name;
         private const double _kmhToMs = 0.277777778;
 
         public Motorcycle()
@@ -17,6 +18,12 @@ namespace lab02
             Random randSpeed = new Random();
             _speed = (double)randSpeed.Next(10, 101);
         }
+
+        public string Name
+        {
+            get { return _name; }
+        }
+
         public double GetMetersPerSecond
         {
             //calculate the M/S and round it to 1 decimal
