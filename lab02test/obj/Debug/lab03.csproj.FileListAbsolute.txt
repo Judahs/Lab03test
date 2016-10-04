@@ -1,0 +1,10 @@
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\bin\Debug\lab02test.exe.config
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\bin\Debug\lab02test.exe
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\bin\Debug\lab02test.pdb
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\obj\Debug\lab03.csprojResolveAssemblyReference.cache
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\obj\Debug\lab02test.exe
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\obj\Debug\lab02test.pdb
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\bin\Debug\Filehandling.dll
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\bin\Debug\Vehicle.dll
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\bin\Debug\Filehandling.pdb
+C:\Users\java\Documents\GitHub\Lab03test\lab02test\bin\Debug\Vehicle.pdb

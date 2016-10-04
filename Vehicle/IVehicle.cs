@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab02
+namespace lab03
 {
-    interface IVehicle
+    public interface IVehicle
     {
         string Name { get; }
         double GetMetersPerSecond { get; } //Force classes to have a getter for speed in m/s

@@ -1,0 +1,5 @@
+C:\Users\java\Documents\GitHub\Lab03test\Filehandling\bin\Debug\Filehandling.dll
+C:\Users\java\Documents\GitHub\Lab03test\Filehandling\bin\Debug\Filehandling.pdb
+C:\Users\java\Documents\GitHub\Lab03test\Filehandling\obj\Debug\Filehandling.csprojResolveAssemblyReference.cache
+C:\Users\java\Documents\GitHub\Lab03test\Filehandling\obj\Debug\Filehandling.dll
+C:\Users\java\Documents\GitHub\Lab03test\Filehandling\obj\Debug\Filehandling.pdb

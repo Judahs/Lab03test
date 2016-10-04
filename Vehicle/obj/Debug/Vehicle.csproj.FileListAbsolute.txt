@@ -1,0 +1,5 @@
+C:\Users\java\Documents\GitHub\Lab03test\Vehicle\bin\Debug\Vehicle.dll
+C:\Users\java\Documents\GitHub\Lab03test\Vehicle\bin\Debug\Vehicle.pdb
+C:\Users\java\Documents\GitHub\Lab03test\Vehicle\obj\Debug\Vehicle.csprojResolveAssemblyReference.cache
+C:\Users\java\Documents\GitHub\Lab03test\Vehicle\obj\Debug\Vehicle.dll
+C:\Users\java\Documents\GitHub\Lab03test\Vehicle\obj\Debug\Vehicle.pdb

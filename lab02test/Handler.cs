@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab02
+
+
+namespace lab03
 {
     class Handler
     {
@@ -302,12 +304,15 @@ namespace lab02
         {
             bool executeAgain = true;
 
-            //Test code start
+            // --- Test code start ---
+            List<string> tempList = Filehandler.GetSavedData();
+            Console.WriteLine("Rad 1:" + tempList[0]);
+            Console.ReadKey();
             Car bil1 = new Car(100, "bil1");
             Car bil2 = new Car(90, "bil2");
             _cars.Add(bil1);
             _cars.Add(bil2);
-            //Test code ends
+            // --- Test code ends ---
 
             while (executeAgain)
             {
@@ -341,6 +346,12 @@ namespace lab02
                     }
                 }
             }
+            // --- test code start ---
+            List <string> testlista = new List<string>();
+            testlista.Add("Kalle; Svensson; 10 år; 170 cm");
+            
+            Filehandler.SaveData(testlista);
+            // --- test code end ---
         }
     }
 }

@@ -43,16 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boat.cs" />
-    <Compile Include="Car.cs" />
     <Compile Include="Handler.cs" />
-    <Compile Include="IVehicle.cs" />
-    <Compile Include="Motorcycle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Filehandling\Filehandling.csproj">
+      <Project>{a29f3f29-cd91-4896-90c9-a767f688cf09}</Project>
+      <Name>Filehandling</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vehicle\Vehicle.csproj">
+      <Project>{2f6f3bdc-e5b0-4ba0-b6c2-b7bf722f8ace}</Project>
+      <Name>Vehicle</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
