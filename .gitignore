@@ -59,3 +59,4 @@ lab02test/obj/Debug/lab02test.exe
 lab02test/obj/Debug/lab02test.pdb
 lab02test/obj/Debug/lab02test.csprojResolveAssemblyReference.cache
 lab02test/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.suo
