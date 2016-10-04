@@ -17,7 +17,14 @@ namespace lab02
             //Randomly generates a speed between 10 - 101 to car added by user
             Random randSpeed = new Random();
             _speed = (double)randSpeed.Next(10, 101);
-            //_name = randomName();
+            _name = RandomNames();
+        }
+
+        public Car(double _speed, string _name)
+        {
+            //Overloaded constructor, used to create instances of objects from saved data
+            this._speed = _speed;
+            this._name = _name;
         }
 
         public string Name
@@ -39,5 +46,15 @@ namespace lab02
         {
             return _speed;  
         }
+
+        public string RandomNames()
+        {
+            List<string> randomNamesList = new List<string>() { "Petrus", "Judas Taddeus", "Johannes", "Judas Iskariot", "Matteus", "Tomas", "Jakob", "Andreas", "Filippos", "Jakob", "Simon", "Bartolomaios" };
+            int l = randomNamesList.Count;
+            Random r = new Random();
+            int num = r.Next(l);
+            return randomNamesList[num];
+        }
+
     }
 }

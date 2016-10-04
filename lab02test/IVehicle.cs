@@ -12,7 +12,7 @@ namespace lab02
         double GetMetersPerSecond { get; } //Force classes to have a getter for speed in m/s
         void SetSpeed(double input);
         double GetSpeed();
+        string RandomNames();
     }
     public enum VehicleType { unidentified, car, boat, motorcycle, all }
-    public enum VehicleName { Namn, namn2, name3, name4 }
 }

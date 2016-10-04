@@ -65,7 +65,7 @@ namespace lab02
                     else if (_cars.Count > 0)
                     {
                         for (int i = 0; i < _cars.Count; i++)
-                            Console.WriteLine("Car {0} – {1} mph", i, _cars[i].GetSpeed());
+                            Console.WriteLine("Car {0}, name: {1} – {2} mph", i, _cars[i].Name, _cars[i].GetSpeed());
                         Console.WriteLine("Please select car to change (0-9) or enter + to add a new car");
                     }
                     break;
@@ -78,7 +78,7 @@ namespace lab02
                     else if (_boats.Count > 0)
                     {
                         for (int i = 0; i < _boats.Count; i++)
-                            Console.WriteLine("Boat {0} – {1} knot", i, _boats[i].GetSpeed());
+                            Console.WriteLine("Boat {0}, name: {1} – {2} knot", i, _boats[i].Name, _boats[i].GetSpeed());
                         Console.WriteLine("Please select boat to change (0-9) or enter + to add a new boat");
                     }
                     break;
@@ -91,7 +91,7 @@ namespace lab02
                     else if (_motorcycles.Count > 0)
                     {
                         for (int i = 0; i < _motorcycles.Count; i++)
-                            Console.WriteLine("Motorcycle {0} – {1} km/h", i, _motorcycles[i].GetSpeed());
+                            Console.WriteLine("Motorcycle {0}, name: {1} – {2} km/h", i, _motorcycles[i].Name, _motorcycles[i].GetSpeed());
                         Console.WriteLine("Please select motorcycle to change (0-9) or enter + to add a new motorcycle");
                     }
                     break;
@@ -127,7 +127,7 @@ namespace lab02
                     if (_cars.Count < 10)
                     { 
                         _cars.Add(new Car());
-                        Console.WriteLine("Car added ({0} mph), press any key to go back to main menu.", _cars.Last().GetSpeed());
+                        Console.WriteLine("Car added ({0} mph, name: {1}), press any key to go back to main menu.", _cars.Last().GetSpeed(), _cars.Last().Name);
                     }
                     else
                         Console.WriteLine("Car stock is full! Press any key to go back to main menu.");
@@ -136,7 +136,7 @@ namespace lab02
                     if (_boats.Count < 10)
                     {
                         _boats.Add(new Boat());
-                        Console.WriteLine("Boat added ({0} knots), press any key to go back to main menu.", _boats.Last().GetSpeed());
+                        Console.WriteLine("Boat added ({0} knots, name: {1}), press any key to go back to main menu.", _boats.Last().GetSpeed(), _boats.Last().Name);
                     }
                     else
                         Console.WriteLine("Boat stock is full! Press any key to go back to main menu.");
@@ -145,7 +145,7 @@ namespace lab02
                     if (_motorcycles.Count < 10)
                     {
                         _motorcycles.Add(new Motorcycle());
-                        Console.WriteLine("Motorcycle added ({0} km/h), press any key to go back to main menu.", _motorcycles.Last().GetSpeed());
+                        Console.WriteLine("Motorcycle added ({0} km/h, name: {1}), press any key to go back to main menu.", _motorcycles.Last().GetSpeed(), _motorcycles.Last().Name);
                     }
                     else
                         Console.WriteLine("Motorcycle stock is full! Press any key to go back to main menu.");
@@ -301,6 +301,14 @@ namespace lab02
         public void Start()
         {
             bool executeAgain = true;
+
+            //Test code start
+            Car bil1 = new Car(100, "bil1");
+            Car bil2 = new Car(90, "bil2");
+            _cars.Add(bil1);
+            _cars.Add(bil2);
+            //Test code ends
+
             while (executeAgain)
             {
                 PrintBaseMenu();
